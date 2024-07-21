@@ -63,7 +63,7 @@
                     <a href="#" class="d-block">{{ Auth::check() ? Auth::user()->name : "" }}</a>
                 </div>
             </div>
-
+            
             <div class="form-inline">
                 <div class="input-group" data-widget="sidebar-search">
                 <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
@@ -94,10 +94,9 @@
                     </div>
                 </div>
             </div>
-
             @yield('section')
-
         </div>
+
 
         <aside class="control-sidebar control-sidebar-dark">
             <div class="p-3">

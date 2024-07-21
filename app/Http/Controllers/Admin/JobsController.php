@@ -275,8 +275,8 @@ class JobsController extends Controller
                     fputcsv($f, $lineData, $delimiter);
 
                     $count++;
-                
             }
+                
 
             // Move back to beginning of file
             fseek($f, 0);
